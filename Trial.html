@@ -1,0 +1,237 @@
+<html>
+
+<head>
+    <title>TRIAL TASK 1</title>
+    <style>
+
+        
+.header {
+            width: 100%;
+            height: 4em;
+            background-color: rgba(10, 10, 56, 0.715);
+            padding: 0.5em 0em 0.5em 0em;
+            align-content: center;
+        }
+
+        .middle {
+            background-color: rgb(235, 235, 213);
+            margin: auto auto;
+            width: 20%;
+            height: 3em;
+            /*margin:auto ;*/
+            position: relative;
+            bottom: 0.8em;
+            text-align: center;
+        }
+
+        .hcon {
+            position: relative;
+            bottom: 15%;
+        }
+
+        .second {
+            display: flex;
+            /*border: 2px solid pink; */
+            width: 100%;
+            height: 3em;
+            padding: 0.5em 0em 0.5em 1em;
+        }
+
+        .textcen {
+            text-align: center;
+        }
+
+        .second .big {
+            font-size: 2em;
+            font-weight: bold;
+            position: relative;
+            left: 15em;
+            font-family: Cambria;
+        }
+
+        .third {
+            position: relative;
+            left: 45em;
+        }
+
+        .mid{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            height : 13em ;
+            /*border : 2px solid gray ;*/
+            padding : 1px 10px  ;
+            margin : 1em ;
+            display : flex ;
+        }
+        .mid h3 
+        {
+            font-size: 20px;
+        }
+        .image
+       {
+            margin : 2px 30px 2px 2px ;
+            width : 200px ;
+            height : 200px ;
+       }
+      .mid button{
+        height : 40px ;
+        width : 10em ;
+        color : white ;
+        font-weight: bold;
+        background-color: rgb(244, 85, 17);
+        border : none ;
+      }
+      .mid button:hover{
+        color : rgb(13, 14, 13) ;
+        font-weight: bold;
+        background-color: rgb(30, 228, 228);
+      }
+
+
+
+
+
+        /*    Media Queries     */
+        @media only screen and (max-width: 600px) {
+            .second {
+                display : block;
+            /*  background-color: rgb(38, 228, 235);    */
+                width: 100%;
+            }
+
+            .second .big {
+                position: relative;
+                left: 5em;
+            }
+
+            .third {
+                position: relative;
+                left: 15em;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .second {
+             /*    background-color: red;    */
+                width: 100%;
+            }
+
+            .second .big {
+                position: relative;
+                left: 5em;
+            }
+
+            .third {
+                position: relative;
+                left: 15em;
+            }
+        }
+
+
+        @media only screen and (min-width: 992px) {
+            .second {
+              /*   background-color: rgb(225, 247, 97);  */
+                width: 100%;
+            }
+
+            .second .big {
+                position: relative;
+                left: 15em;
+            }
+
+            .third {
+                position: relative;
+                left: 45em;
+            }
+        }
+        @media only screen and (max-width: 768px)
+        {
+            .mid{
+                display : block ;
+                overflow: hidden;
+                height : 30em ;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <centre>
+            <div class="middle">
+                <h3> NEWS BLOG </h3>
+                <p class="hcon">WORLDWIDE NEWS</p>
+            </div>
+        </centre>
+    </div>
+    <div class="second">
+        <div class="fsec">
+            <span>SELECT CATEGORY</span>
+            <form action="">
+                <select name="category" id="cat">
+                    <option value="all">All</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Politics">Politics</option>
+                    <option value="Education">Education</option>
+                    <option value="Entertainment">Entertainment</option>
+                </select>
+            </form>
+        </div>
+        <span class="big textcen">ALL NEWS</span>
+        <div class="third">
+            <span>SUBSCRIBE</span><br>
+            <input class="" type="text" id="email" name="email" value="email address">
+            <input class="" type="button" id="subscribe" name="subscribe" value="Subscribe">
+        </div>
+    </div>
+    <hr>
+
+    <div class="mid ">
+        <img class="image" src="1_IMG.jpg" alt="">
+        <div class="mid1 space">
+            <h3>Title One</h3>
+            <span>posted on 1 Apr, 2022 , Category One</span><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita similique error, reprehenderit id voluptatum maxime?Lorem ipsum, 
+                dolor sit amet consectetur adipisicing elit. Enim ea facere neque, similique 
+                accusamus corporis temporibus, repellat perferendis ullam odio ratione dolorem!</p>
+                
+                <button>Continue Reading</button>
+
+        </div>
+    </div>
+<hr>
+    <div class="mid ">
+        <img class="image" src="2_IMG.jpg" alt="">
+        <div class="mid1 space">
+            <h3>Title Two</h3>
+            <span>posted on 2 Apr, 2022 , Category One</span><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita similique error, reprehenderit id voluptatum maxime?Lorem ipsum, 
+                dolor sit amet consectetur adipisicing elit. Enim ea facere neque, similique 
+                accusamus corporis temporibus, repellat perferendis ullam odio ratione dolorem!</p>
+               
+                <button>Continue Reading</button>
+
+        </div>
+    </div>
+<hr>
+    <div class="mid ">
+        <img class="image" src="3_IMG.jpg" alt="">
+        <div class="mid1 space">
+            <h3>Title Three</h3>
+            <span>posted on 3 Apr, 2022 , Category One</span><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita similique error, reprehenderit id voluptatum maxime?Lorem ipsum, 
+                dolor sit amet consectetur adipisicing elit. Enim ea facere neque, similique 
+                accusamus corporis temporibus, repellat perferendis ullam odio ratione dolorem!</p>
+              
+                <button>Continue Reading</button>
+
+        </div>
+    </div>
+    <hr>
+    
+</body>
+
+</html>
